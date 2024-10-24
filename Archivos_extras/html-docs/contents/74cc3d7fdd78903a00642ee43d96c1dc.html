@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>INVENTARIO DESTINO</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+<script type="text/javascript" src="../assets/js/imageMapResizer.min.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>INVENTARIO DESTINO</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-ERDEntity"></span>
+          ERDEntity
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>JincaDB</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='e3383a69029dbc936c0db503e3b13a93.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>DataBase E-R</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='74cc3d7fdd78903a00642ee43d96c1dc.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>INVENTARIO DESTINO</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <p>Tabla que contiene los inventarios de destino</p>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+
+      <!-- Operations -->
+
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+      <section>
+        <h3>Columns</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="20%">Name</th>
+            <th width="20%">Type</th>
+            <th width="10%">Primary Key</th>
+            <th width="10%">Foreign Key</th>
+            <th width="20%">Reference To</th>
+            <th width="10%">Nullable</th>
+            <th width="10%">Unique</th>
+          </tr>
+          
+          <tr>
+            <td><a href="cbb99b9e141f087ac1bc99057792a8c6.html">Id_Inventario_Destino</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="314b81f6b5e76cdb451831f4a2b7ae10.html">Id_Inventario</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='978e05cb944382d0b1204b472d165e58.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>INVENTARIO</a> ::
+              
+              <a href='a5381f76b2561f87cfa5ffe95e1b0562.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>Id_Inventario</a>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="33c47db0a04392465cf34aa4a4ae5447.html">Id_Pedido_Proveedor</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='e416cf69c8b6a76aebe6b2b98b23c5ff.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>COMPRAS PROVEEDORES</a> ::
+              
+              <a href='d0b76fe1c1b45145bf66659d454d18f7.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>Id_Pedido_Proveedor</a>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+      <section>
+        <h3>Related Entities</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="25%">Entity</th>
+            <th width="25%">Cardinality</th>
+            <th width="25%">Reference Name</th>
+            <th width="25%">Relationship</th>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='978e05cb944382d0b1204b472d165e58.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>INVENTARIO</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='276740047782cbe64f54c1e4c72f594e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(INVENTARIO—INVENTARIO DESTINO)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='e416cf69c8b6a76aebe6b2b98b23c5ff.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>COMPRAS PROVEEDORES</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='84f79d3f11da717fdc31054a22a8df81.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(COMPRAS PROVEEDORES—INVENTARIO DESTINO)</a></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>INVENTARIO DESTINO</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='276740047782cbe64f54c1e4c72f594e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(INVENTARIO—INVENTARIO DESTINO)</a></li>
+        
+        <li><a href='84f79d3f11da717fdc31054a22a8df81.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(COMPRAS PROVEEDORES—INVENTARIO DESTINO)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+
+
+      <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
+      <script>
+      imageMapResize();
+      </script>
+    </div>
+  </body>
+</html>
