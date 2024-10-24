@@ -13,4 +13,4 @@ GRANT ALL PRIVILEGES ON JincaDB.* TO 'administrador' @'localhost'; -- El admin t
 GRANT SELECT, INSERT ON JincaDB.* TO 'empleado' @'localhost'; -- El empleado puede Consultar y agregar
 GRANT SELECT ON JincaDB.* TO 'contador' @'localhost'; -- El contador puede consultar
 -- Aplicar cambios
-FLUSH PRIVILEGES; -- Acá actualizamos los permisos
+FLUSH PRIVILEGES; -- Acá actualizamos los permiso
