@@ -123,7 +123,6 @@ WHERE id_producto IN (
 - Visualizar relación y creacion de tablas
 ---
 ### Creación DB
-![Imagen Diagrama E-R](Multimedia/Diagrama%20E-R.png)
 - Se creó el respectivo DIAGRAMA E-R
 - Se creó el respectivo DDL (Creación de base de datos,tablas y relaciones)
 - Se creó el respectivo DML (Inserciones de datos)
